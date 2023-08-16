@@ -1,0 +1,8 @@
+.card{
+    width: 18rem;
+    display: flex;
+}
+
+.cursos-sugeridos{
+    display: flex;
+}

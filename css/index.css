@@ -51,6 +51,26 @@
     color:#64C37D;
 }
 
+.conteiner3{
+        margin: 32px 70px;
+        padding-bottom: 10px;
+}
 
+.card-deck{
+   margin: 5%; 
+}
 
+.custom-card {
+    border-radius: 8px;
+    padding: 0px!important;
+  }
+
+ 
+  .custom-card .card-title {
+    font-size: 1rem; /* Tamanho da fonte do título do card */
+  }
+
+  .card-footer{
+    font-size: 1rem;
+  }
 

@@ -1,0 +1,53 @@
+.titulo{
+    text-align: right;
+    text-size-adjust: 200rem;
+    position: reltive;
+    
+    top: 21rem;
+    left: -10rem;
+}
+.titulo h1{
+    color: #08c93b;
+    top: -10rem;
+}
+
+
+
+#diver{
+    background-color: #D9D9D9 ;
+    padding: 6rem;
+    text-align: center;
+    font-family: 'Open Sans';
+    
+}
+#titulo2{
+    font-size: 36px;
+    
+}
+.plataforma{
+    
+    margin-left: 120px;
+    margin-top: 66px;
+}
+.plataforma h1{
+    color: #08c93b;
+}
+.plataforma p{
+    color: black;
+    
+}
+.plataforma img{
+    margin-left: 50rem;
+    margin-bottom: 30rem;
+}
+
+}
+@media screen and (max-width: 768px) {
+
+
+  #subti , #titulo {
+    display: inline-block !important;
+  }
+  }
+
+  

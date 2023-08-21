@@ -1,0 +1,98 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    min-width: 320px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.conteiner-1{
+    background: var(--cinza, #D9D9D9);
+    display: flex;
+}
+
+.conteudo-1{
+    margin-left: 8%;
+    margin-top: 12em;
+}
+
+figure{
+    margin-left:15%;
+    margin-right: 10%;
+    margin-top: 3%;
+    max-width: 100%
+}
+
+#divBusca{
+    background-color:#FFFFFF;
+    display: flex;
+    width: 589.1px;
+    padding: 16.329px;
+    align-items: flex-start;
+    gap: 16.329px;
+    border-radius: 78.38px;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:35px;
+    width:200rem;
+}
+
+.empresas{
+    display: flex;
+    padding: auto;
+    margin-left: 20%;
+}
+
+.p--empresas{
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+@media (max-width: 576px) {
+    body{
+        background-color: #D9D9D9;
+    }
+
+    .conteiner-2{
+        background-color: #FFFFFF;
+        max-width: 576px;
+    }
+}
+
+@media (max-width: 768px) { 
+    body{
+        background-color: #D9D9D9;
+    }
+    .conteiner-2{
+        background-color: #FFFFFF;
+    }
+}
+
+@media (max-width: 992px) { 
+    body{
+        background-color: #D9D9D9;
+    }
+    .conteiner-2{
+        background-color: #FFFFFF;
+    }
+}
+
+@media (max-width: 1200px) {  
+    body{
+        background-color: #D9D9D9;
+    }
+    .conteiner-2{
+        background-color: #FFFFFF;
+    }
+}
+
+

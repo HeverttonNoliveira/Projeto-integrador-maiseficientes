@@ -33,7 +33,7 @@
         style="background-color: #0c0d0d"
     >
 
-        <img src="image/Logo-menu-azul.png" height="80px" alt="" />
+        <img src="pics/Logo-menu-azul.png" height="80px" alt="" />
         <button
             class="navbar-toggler"
             type="button"
@@ -246,7 +246,3 @@
     ></script>
   </body>
 </html>
-
-
-
-

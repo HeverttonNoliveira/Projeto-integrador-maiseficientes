@@ -1,0 +1,87 @@
+.{
+    display: flex;
+}
+
+.titulo{
+    text-align: right;
+    text-size-adjust: 200rem;
+    position: reltive;
+    
+    top: 21rem;
+    left: -10rem;
+}
+.titulo h1{
+    color: #08c93b;
+    top: 50rem;
+}
+
+
+
+#diver{
+    background-color: #D9D9D9 ;
+    padding: 6rem;
+    text-align: center;
+    font-family: 'Open Sans';
+    
+}
+#titulo2{
+    font-size: 36px;
+    
+}
+.plataforma{
+    
+    margin-left: 120px;
+    margin-top: 66px;
+}
+.plataforma h1{
+    color: #08c93b;
+}
+.plataforma p{
+    color: black;
+    
+    
+    
+    
+}
+.plataforma img{
+    margin-right: 66rem;
+
+    
+    
+    
+    
+}
+.programa{
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -09rem;
+}
+.programa h1{
+    color: #08c93b;
+}
+
+.mercado{
+    margin-left: 120px;
+    margin-top: 70px;
+    
+    
+
+}
+.mercado h1{
+    color: #08c93b;
+}
+#imgfinal{
+    text-align: right;
+    margin-right: 120px;
+    margin-top: -13rem;
+}
+
+}
+
+
+    
+}
+@media screen and (max-width: 768px) {
+
+
+ 

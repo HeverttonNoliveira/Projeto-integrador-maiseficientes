@@ -1,226 +1,443 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cursos</title>
-    <script src="https://kit.fontawesome.com/dc9f76b64f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/cursos.css">
-</head>
-<body>
-<!-- menu -->
-<!-- Menu -->
-<header>
-    <nav
+    <script
+      src="https://kit.fontawesome.com/dc9f76b64f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/cursos.css" />
+  </head>
+  <body>
+    
+    <!-- Menu -->
+    <header>
+      <nav
         class="navbar navbar-expand-lg navbar-dark"
         style="background-color: #0c0d0d"
-    >
-
+      >
         <img src="image/Logo-menu-azul.png" height="80px" alt="" />
         <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#"
-                >Inicio <span class="sr-only">(current)</span></a>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-2 ml-2">
+              <a class="nav-link" href="index.html"
+                >Inicio <span class="sr-only">(current)</span></a
+              >
+            </li>
+
+            <li  class="nav-item active" class="nav-item mr-2 ml-2" class="nav-item active">
+              <a class="nav-link" href="cursos.html">Cursos</a>
             </li>
 
             <li class="nav-item mr-2 ml-2">
-                <a class="nav-link" href="cursos.html">Cursos</a>
+              <a class="nav-link" href="vagas.html">Vagas</a>
             </li>
 
             <li class="nav-item mr-2 ml-2">
-                <a class="nav-link" href="vagas.html">Vagas</a>
+              <a class="nav-link" href="sobre-nos.html">O +Eficientes</a>
             </li>
 
             <li class="nav-item mr-2 ml-2">
-                <a class="nav-link" href="sobre-nos.html">O +Eficientes</a>
+              <a class="nav-link" href="entrar.html"
+                ><i class="fa-solid fa-user mr-2" style="color: #fafcff"></i
+                >Entrar</a
+              >
             </li>
 
-            <li class="nav-item mr-2 ml-2">
-                <a class="nav-link" href="entrar.html"><i class="fa-solid fa-user mr-2" style="color: #fafcff "></i>Entrar</a>
-            </li>
-
-            <a class="btn btn-success ml-3 mr-3" href="cadastra-se.html" role="button">Cadastre-se</a>
-        </ul>
+            <a
+              class="btn btn-success ml-3 mr-3"
+              href="cadastra-se.html"
+              role="button"
+              >Cadastre-se</a
+            >
+          </ul>
         </div>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-    <!-- CARDS -->
-            <h2>Principais Cursos</h2>
-            <div class="card-group">
-                <div class="card">
-                    <img src="image/cursotrabalho.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Segurança dotrabalho 80 horas</h5>                    
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-muted">Saude e segurança educacional</small>
-                    </div>
+<main>
+    <!-- Principais Cursos -->
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Carousel cards title </h3>
                 </div>
-                <div class="card">
-                    <img src="image/cursopostura.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Postura Profissional e elaboração de curriculo para PCD 80 horas</h5>                   
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-muted">Desenvolvimento Pessoal</small>
-                    </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
                 </div>
-                <div class="card">
-                    <img src="image/tecnica-de-apresentação.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title">Tecnica de apresentação 80 horas</h5>                    
-                    </div>
-                    <div class="card-footer">
-                    <small class="text-muted">Comunicação</small>
-                    </div>
-                </div>
-                </div>             
-                <div class="card-group">
-                    <div class="card">
-                        <img src="image/libras.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Libras 1 80 horas</h5>                        
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Linguagem</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="image/auxadm.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Auxiliar ADM 50 horas </h5>                        
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Administração e Negocios</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="image/libras2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">ASL American Sing Language 80 horas</h5>                        
-                        </div>
-                        <div class="card-footer">
-                        <small class="text-muted">Languagem</small>
-                        </div>
-                    </div>
-                    </div>
-                    <h2>Informatica</h2>
-                    <div class="card-group">
-                        <div class="card">
-                            <img src="image/ecxel.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Ecxel Avançado 50 horas </h5>                            
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Informatica</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="image/office.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Pacote Office 80 horas</h5>                            
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Informatica</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="image/cursotech.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <h5 class="card-title">Desing UX/UI 80 horas</h5>                            
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Informatica</small>
-                            </div>
-                        </div>
-                        </div>
-                        <h2>Linguagem</h2>
-                        <div class="card-group">
-                            <div class="card">
-                                <img src="image/libras2.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">ASL American Sing Language 80 horas</h5>                                
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Linguagem</small>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <img src="image/libras.png" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                <h5 class="card-title">Libras 1 80 horas</h5>                                
-                                </div>
-                                <div class="card-footer">
-                                <small class="text-muted">Linguagem</small>
-                                </div>
-                            </div>                         
-                            </div>
-    <!-- roda pe -->
-    <footer>
-        <div class="container-footer">
-            <div class="row-footer">
-                <!-- footer col-->
-                <div class="footer-col">
-                    <h4>Empresa</h4>
-                    <ul>
-                        <li><a href="#"> Quem somos </a></li>
-                        <li><a href="#"> nossos serviços </a></li>
-                        <li><a href="#"> política de privacidade </a></li>
-                        <li><a href="#"> Colocação profissional</a></li>
-                    </ul>
-                </div>
-                <!--end footer col-->
-                <!-- footer col-->
-                <div class="footer-col">
-                    <h4>Obter ajuda</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Fale conosco</a></li>
-                        <li><a href="#">Conheça nossos Cursos</a></li>
-                        <li><a href="#">Conheça nossa Empresa</a></li>
-                        <li><a href="#">Veja vagas disponiveis</a></li>
-                    </ul>
-                </div>           
-                <div class="footer-col">              
-                    <div class="form-sub">
-                        <form>
-                            <input type="email" placeholder="Digite o seu e-mail" required>
-                            <button><a href="#"></a>Cadastre-se</button>
-                        </form>
-                    </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
     
-                    <div class="medias-socias">
-                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                        <a href="#"> <i class="fa fa-instagram"></i> </a>
-                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                    </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
     
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/librasavançado11.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/libras10.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/libras2.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/office9.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/win3.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/UX5.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <!-- teste -->
-                <!--end footer col-->
             </div>
         </div>
+    </section>
+
+    <!-- Informatica -->
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Carousel cards title </h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators3" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/desenvolvimentofullstack.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/informatica.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/libras2.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/office9.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/win3.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/UX5.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Linguagens -->
+    <section class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3 class="mb-3">Carousel cards title </h3>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                        <i class="fa fa-arrow-left"></i>
+                    </a>
+                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators3" role="button" data-slide="next">
+                        <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-12">
+                    <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+    
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/librasavançado11.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/libras10.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/libras2.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+    
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/office9.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/win3.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mb-3">
+                                        <div class="card">
+                                            <img class="img-fluid" alt="100%x280" src="pics/UX5.png">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Special title treatment</h4>
+                                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+    <!-- roda pe -->
+    <footer>
+      <div class="container-footer">
+        <div class="row-footer">
+          <!-- footer col-->
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#"> Quem somos </a></li>
+              <li><a href=""> nossos serviços </a></li>
+              <li><a href=""> política de privacidade </a></li>
+              <li><a href=""> Colocação profissional</a></li>
+            </ul>
+          </div>
+          <!--end footer col-->
+          <!-- footer col-->
+          <div class="footer-col">
+            <h4>Obter ajuda</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">Conheça nossos Cursos</a></li>
+              <li><a href="#">Conheça nossa Empresa</a></li>
+              <li><a href="#">Veja vagas disponiveis</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="form-sub">
+              <form>
+                <input
+                  type="email"
+                  placeholder="Digite o seu e-mail"
+                  required
+                />
+                <button>Cadastre-se</button>
+              </form>
+            </div>
+
+            <div class="medias-socias">
+              <a href="#"> <i class="fa fa-facebook"></i> </a>
+              <a href="#"> <i class="fa fa-instagram"></i> </a>
+              <a href="#"> <i class="fa fa-twitter"></i> </a>
+              <a href="#"> <i class="fa fa-linkedin"></i> </a>
+            </div>
+          </div>
+          <!--end footer col-->
+        </div>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

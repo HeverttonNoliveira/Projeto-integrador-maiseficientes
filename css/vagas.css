@@ -1,3 +1,31 @@
+.conteiner{
+    background: var(--verde-claro, #64C37D);
+    padding: 32px 70px;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    color: white;
+}
+
+.custom-search-input {
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 3000px;
+    transition: border-color 0.3s ease-in-out;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.custom-search-input:focus {
+    border:2px solid black;
+}
+
+.empresas{
+    margin: 30px;
+}
+
+
 /* roda pe */
 footer{
     background-color: #d9d9d9;

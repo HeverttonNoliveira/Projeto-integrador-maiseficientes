@@ -4,12 +4,15 @@
 }
 
 .btn-success{
-    padding: 0px, 7px, 0px, 7px:
+    padding: 0px, 7px, 0px, 7px;
 }
 .btn-success:hover {
     background-color: #0069d9;
     border-color: #0062cc;
 }
+
+/* carousel */
+
 
 .custom-card{
     max-width: 200px;
@@ -144,3 +147,4 @@ footer{
         width: 100%;
     }
 }
+

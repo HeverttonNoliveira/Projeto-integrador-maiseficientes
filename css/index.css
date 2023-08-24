@@ -1,26 +1,34 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Menu */
 .navbar-nav li.nav-item:hover {
     border-bottom: 3px solid white;
 }
 
 .btn-success{
-    padding: 0px, 7px, 0px, 7px:
+    padding: 0px, 7px, 0px, 7px;
 }
 .btn-success:hover {
-    background-color: #0069d9;
-    border-color: #0062cc;
+    background-color: #f7f7f7;
+    color: green;
 }
 
+/* Main */
 .conteiner{
-    background: var(--verde-claro, #64C37D);
+    margin-top: 4%;
+    background-color: #64C37D;
     padding: 32px 70px;
-    align-items: center;
     gap: 10px;
     text-align: center;
     color: white;
 }
 
+
+/* Barra de Pesquisa */
 .custom-search-input {
-    border: 2px solid #3498db;
+    border: none;
     border-radius: 25px;
     padding: 10px 15px;
     font-size: 16px;
@@ -29,27 +37,40 @@
     margin-top: 1%;
     margin-bottom: 1%;
 }
-.custom-search-input:focus {
-    border:2px solid black;
-}
+
 
 .conteiner2{
-    background: var(--verde-claro, #64C37D);
-    color: white;
+    background:white;
+    color: black;
     display: inline;
     display: flex;
     padding: 32px 70px;
     gap: 10px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.h2-SobreNos{
+    color: #64C37D;
 }
 
 .conteudo{
     padding: auto;
+    margin: 5%;
 }
 
-.btn-light{
+.custom-btn{
     margin-top:6%;
-    color:#64C37D;
+    color:#ffffff;
+    padding: 10px;
+    border-radius: 5px;
 }
+.custom-btn:hover{
+    background-color: #64C37D;
+    color: white;
+
+}
+
+
 
 .conteiner3{
         margin: 32px 70px;
@@ -57,22 +78,44 @@
 }
 
 .card-deck{
-   margin: 5%; 
+margin: 5%; 
 }
 
 .custom-card {
     border-radius: 8px;
     padding: 0px!important;
-  }
+}
 
- 
-  .custom-card .card-title {
+.custom-card .card-title {
     font-size: 1rem; /* Tamanho da fonte do título do card */
-  }
+}
 
-  .card-footer{
+.card-footer{
     font-size: 1rem;
-  }
+}
+
+/* carousel */
+.carousel-inner{
+    padding:3% 8.9%;
+}
+
+.carousel-indicators li {
+    background-color: #ccc; /* Cor de fundo dos indicadores inativos */
+    border: 1px solid #000000; /* Borda dos indicadores inativos */
+    border-radius: 50%; /* Forma circular */
+    width: 12px; /* Largura do indicador */
+    height: 12px; /* Altura do indicador */
+    margin: 0 6px; /* Espaçamento entre os indicadores */
+}
+
+.carousel-indicators .active {
+    background-color: #333; /* Cor de fundo do indicador ativo */
+}
+
+.carousel-control{
+    font-size:2rem;
+    color: #64C37D;
+}
 /* roda pe */
 footer{
     background-color: #d9d9d9;

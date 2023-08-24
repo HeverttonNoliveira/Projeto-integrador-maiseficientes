@@ -19,7 +19,7 @@
 <body>
     <header>
         <nav
-            class="navbar navbar-expand-lg navbar-dark"
+            class="navbar navbar-expand-lg navbar-dark fixed-top"
             style="background-color: #0c0d0d"
         >
     
@@ -39,8 +39,8 @@
     
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#"
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html"
                     >Inicio <span class="sr-only">(current)</span></a>
                 </li>
     
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="cursos.html">Cursos</a>
                 </li>
     
-                <li class="nav-item mr-2 ml-2">
+                <li class="nav-item mr-2 ml-2 active">
                     <a class="nav-link" href="vagas.html">Vagas</a>
                 </li>
     
@@ -66,35 +66,47 @@
         </nav>
     </header>
     <main>
-        <div class="conteiner-1">
-            <div class="conteudo-1">
-
+        <div class="conteiner-1  ">
             <div class="conteiner">
-                <figure>
-                    <img src="pics/vagss.png" alt=""  class="img-fluid"/>
-                </figure>
-                <h1>
+                <!-- <figure>
+                    <img src="pics/vagassearch-removebg-preview.png" alt=""  class="img-fluid"/>
+                </figure> -->
+                <h1 class="ml-5">
                     Encotre Vagas de Empregos
                 </h1>   
-                <h4>Não espere pela oportunidade, crie-a</h4>
+                <h4 class="ml-5">Não espere pela oportunidade, crie-a</h4>
         
-                <form class="form-inline custom-search-form">
+                <form class="form-inline custom-search-form ml-5" >
                     <input class="custom-search-input mr-sm-2" type="search" 
                     placeholder="Busque por vagas ou empresas" aria-label="Pesquisar">
-                    
                 </form>
+            </div>
+        </div>
 
-            <div class="empresas">
-                <img src="pics/senai.png" alt="senai" >
-                <img src="pics/edm.png" alt="edm">
-                <img src="pics/globo.png" alt="globo">
-                <img src="pics/bradesco.png" alt="bradesco">
-                <img src="pics/porto-seguro.png" alt="porto-seguro">
-                <img src="pics/senac.png" alt="senac">
-                <img src="pics/itau.png" alt="itau">
-                <img src="pics/vivo.png" alt="vivo">
-                <img src="pics/positivo.png" alt="positivo">
-                <img src="pics/sul-america.png" alt="sul-america">
+
+        <div class="empresas">
+            <div class="empresas-img d-flex justify-content-between">
+                <figure >
+                    <img src="pics/vagas-2.png" alt="">
+                </figure>
+
+            <div class="d-flex align-items-center empresas-img" > 
+                <h5 class="mr-1  d-flex justify-content-center">
+                    Conheça algumas
+                </h5>
+                <figure  >
+                    <img src="pics/senai.png" alt="senai" >
+                    <img src="pics/edm.png" alt="edm">
+                    <img src="pics/globo.png" alt="globo">
+                    <img src="pics/bradesco.png" alt="bradesco">
+                    <img src="pics/porto-seguro.png" alt="porto-seguro">
+                    <img src="pics/senac.png" alt="senac">
+                    <img src="pics/itau.png" alt="itau">
+                    <img src="pics/vivo.png" alt="vivo">
+                    <img src="pics/positivo.png" alt="positivo">
+                    <img src="pics/sul-america.png" alt="sul-america">
+                </figure>
+            </div>
             </div>
         </div>
     </main>

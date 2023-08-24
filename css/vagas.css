@@ -1,10 +1,24 @@
+/* Menu */
+.navbar-nav li.nav-item:hover {
+    border-bottom: 3px solid white;
+}
+
+.btn-success{
+    padding: 0px, 7px, 0px, 7px;
+}
+.btn-success:hover {
+    background-color: #f7f7f7;
+    color: green;
+}
+
+
 .conteiner{
-    background: var(--verde-claro, #64C37D);
-    padding: 32px 70px;
+    background-color:#64c37d;
     align-items: center;
     gap: 10px;
-    text-align: center;
     color: white;
+    padding-top: 9%;
+    padding-bottom: 5%;
 }
 
 .custom-search-input {
@@ -12,18 +26,23 @@
     border-radius: 25px;
     padding: 10px 15px;
     font-size: 16px;
-    width: 3000px;
+    width: 900px;
     transition: border-color 0.3s ease-in-out;
     margin-top: 1%;
     margin-bottom: 1%;
+    
 }
 .custom-search-input:focus {
     border:2px solid black;
 }
 
 .empresas{
-    margin: 30px;
+    padding: 50px;
+    background-color: white;
+    color: black;
 }
+
+
 
 
 /* roda pe */
@@ -131,5 +150,11 @@ footer{
 @media (max-width:600px) {
     .footer-col{
         width: 100%;
+    }
+    .empresas-img{
+        display: block!important;
+    }
+    .empresas-img img{
+        max-width: 100%;
     }
 }

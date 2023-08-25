@@ -25,23 +25,23 @@
     display: inline;
     display: flex;
     gap: 10px;
-    padding-top: 4em;
+    padding-top: 3em;
     padding-right: 7em;
-    padding-bottom: 2em;
+    padding-bottom: 0em;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .conteudo{
-    padding-top: 5em;
+    padding-top: 10em;
     margin: 4%;
 }
 
 .custom-search-input {
-    border: 2px solid #3498db;
+    border:none;
     border-radius: 8px;
     padding: 20px 25px;
     font-size: 16px;
-    width: 450px;
+    width: 400px;
     transition: border-color 0.3s ease-in-out;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -58,6 +58,7 @@
     color: black;
     margin: 5%;
     box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-right: 5em;
 }
 
 .custom-cadastro{
@@ -121,6 +122,7 @@
     background-color: #0056b3;
     border-color: #0056b3;
 }
+
 
 
 
@@ -227,15 +229,30 @@ footer{
         width: 50%;
         margin-bottom: 30px;
     }
+
+    .empresas{
+        display: inline-block!important;
+        padding: 0px;
+    }
+
+    .img-vagas img{
+        max-width: 100%!important;
+    }
+    .img-vagas{
+        max-width: 100%!important;
+    }
+
+    .logo-empresa img{
+        display: block;
+        margin-left: 42%;
+    }
+
+
 }
 @media (max-width:600px) {
     .footer-col{
         width: 100%;
     }
-    .empresas-img{
-        display: block!important;
-    }
-    .empresas-img img{
-        max-width: 100%;
-    }
+
+
 }

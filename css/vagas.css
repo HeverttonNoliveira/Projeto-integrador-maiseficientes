@@ -1,6 +1,13 @@
+
 /* Menu */
+
+.navbar-expand-lg{
+    background-color:#000000;
+    padding: auto;
+}
+
 .navbar-nav li.nav-item:hover {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 .btn-success{
@@ -11,22 +18,30 @@
     color: green;
 }
 
-
+/* main */
 .conteiner{
-    background-color:#64c37d;
-    align-items: center;
+    background-color:#64C37D;
+    color: rgb(255, 255, 255);
+    display: inline;
+    display: flex;
     gap: 10px;
-    color: white;
-    padding-top: 9%;
-    padding-bottom: 5%;
+    padding-top: 4em;
+    padding-right: 7em;
+    padding-bottom: 2em;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.conteudo{
+    padding-top: 5em;
+    margin: 4%;
 }
 
 .custom-search-input {
     border: 2px solid #3498db;
-    border-radius: 25px;
-    padding: 10px 15px;
+    border-radius: 8px;
+    padding: 20px 25px;
     font-size: 16px;
-    width: 900px;
+    width: 450px;
     transition: border-color 0.3s ease-in-out;
     margin-top: 1%;
     margin-bottom: 1%;
@@ -37,10 +52,76 @@
 }
 
 .empresas{
-    padding: 50px;
+    padding-top: 5em;
+    padding-bottom: 5em;
     background-color: white;
     color: black;
+    margin: 5%;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.custom-cadastro{
+    margin: 5%;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: white;
+}
+
+.cadadastro-vagas{
+    display: flex;
+}
+
+.card-custom-vagas{
+    border-radius: 8px;
+}
+.card-custom-vagas:hover{
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+.h5-ou{
+    padding-top: 5em;
+}
+
+#cadastroModal {
+    font-family: Arial, sans-serif;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    padding: 1rem;
+}
+
+/* Estilizando os campos de formulário */
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+/* Estilizando os botões */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
 
 
 

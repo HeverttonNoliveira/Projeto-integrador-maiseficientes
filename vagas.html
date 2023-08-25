@@ -20,10 +20,9 @@
     <header>
         <nav
             class="navbar navbar-expand-lg navbar-dark fixed-top"
-            style="background-color: #0c0d0d"
         >
     
-            <img src="image/Logo-menu-azul.png" height="80px" alt="" />
+            <img src="pics/Logo-3.png" height="80px" alt="" />
             <button
                 class="navbar-toggler"
                 type="button"
@@ -65,36 +64,41 @@
             </div>
         </nav>
     </header>
+    
     <main>
-        <div class="conteiner-1  ">
-            <div class="conteiner">
-                <!-- <figure>
-                    <img src="pics/vagassearch-removebg-preview.png" alt=""  class="img-fluid"/>
-                </figure> -->
-                <h1 class="ml-5">
-                    Encotre Vagas de Empregos
-                </h1>   
-                <h4 class="ml-5">Não espere pela oportunidade, crie-a</h4>
-        
-                <form class="form-inline custom-search-form ml-5" >
-                    <input class="custom-search-input mr-sm-2" type="search" 
-                    placeholder="Busque por vagas ou empresas" aria-label="Pesquisar">
-                </form>
+            <div class="conteiner ">
+                <div class="conteudo ">
+                    <h2 class="h2-SobreNos mt-5 mb-5">
+                        Conectando Sonhos Profissionais: Encontre seu Emprego Ideal!
+                    </h2>
+                    
+                    <form class="form-inline custom-search-form ">
+                        <input class="custom-search-input mr-sm-2" type="search" 
+                        placeholder="Busque por vagas ou empresas" aria-label="Pesquisar">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                    
+                <figure class="d-flex justify-content-end">
+                    <img src="pics/image-removebg-preview2.png" width="900px" class="img-fluid" alt="">
+                </figure>
             </div>
-        </div>
 
 
         <div class="empresas">
             <div class="empresas-img d-flex justify-content-between">
+
                 <figure >
-                    <img src="pics/vagas-2.png" alt="">
+                    <img src="pics/vagas.jpg" width="700px" alt="">
                 </figure>
 
+                <!-- <div>
+                    <h5 class="  d-flex justify-content-center h5-custom-vagas">
+                        Empresas líderes no Brasil estão contratando agora
+                    </h5>
+                </div> -->
             <div class="d-flex align-items-center empresas-img" > 
-                <h5 class="mr-1  d-flex justify-content-center">
-                    Conheça algumas
-                </h5>
-                <figure  >
+                <figure >
                     <img src="pics/senai.png" alt="senai" >
                     <img src="pics/edm.png" alt="edm">
                     <img src="pics/globo.png" alt="globo">
@@ -109,6 +113,88 @@
             </div>
             </div>
         </div>
+
+
+    <!-- Login empresa e aluno -->
+    <div class="custom-cadastro">
+
+        <h3 class="d-flex justify-content-center mb-4">
+            Cadastra-se Agora    
+        </h3>
+
+        <div class="cadadastro-vagas d-flex justify-content-center">
+
+            <div class="card card-custom-vagas  
+            ml-3 mr-3 mt-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 h5 class="card-title d-flex justify-content-center mb-3">
+                        Eu sou um recrutador
+                    </h5>
+                    <p class="card-text">As empresas cadastradas podem publicar vagase encontrar o candidato ideal.</p>
+                    
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#cadastroModal">
+                        Cadastra Empresa
+                    </button>
+
+                    <!-- Modal de Cadastro -->
+<div class="modal fade" id="cadastroModal" tabindex="-1" role="dialog" aria-labelledby="cadastroModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cadastroModalLabel">Cadastro</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Formulário de Cadastro -->
+                <form>
+                    <div class="form-group">
+                        <label for="nomeEmpresa">Nome da Empresa</label>
+                        <input type="text" class="form-control" id="nomeEmpresa" placeholder="Nome da sua Empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">CNPJ</label>
+                        <input type="text" class="form-control" id="cnpj" placeholder="Digite o CNPJ da empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="cnpj">E-mail</label>
+                        <input type="text" class="form-control" id="cnpj" placeholder="E-mail">
+                    </div>
+                    <!-- Adicione mais campos conforme necessário -->
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+
+            <h5 class="h5-ou ml-2 mr-2">OU</h5>
+
+            <div class="card card-custom-vagas   
+            ml-3 mr-3 mt-3" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 h5 class="card-title mb-3">
+                        Eu sou um candidato
+                    </h5>
+                    <p class="card-text">Amplie suas oportunidades,
+                        cadastre seu currículo e encontre seu emprego.
+                        
+                        Cadastrar currículo</p>
+                    <a class="btn btn-success" href="cadastra-se.html" role="button">Cadastrar Curriculo</a>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </div>
     </main>
 
     <footer>
